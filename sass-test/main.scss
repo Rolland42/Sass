@@ -1,0 +1,15 @@
+@import 'test.scss';
+$primary-color:red ;
+$square-height:120;
+$square-width:240 px;
+.square{ 
+    background-color: $primary-color;
+    width:$square-width;
+    height:$square-height px;
+}
+
+$mobile: max-width: 600 px;
+    
+@media $mobile {
+    $primary-color: green;
+} 
